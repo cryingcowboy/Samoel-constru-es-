@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samoel Cardoso Tosti | Construção e Reformas</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, sans-serif;
+background:#111;
+color:white;
+line-height:1.6;
+}
+
+header{
+padding:60px 20px;
+text-align:center;
+background:#1a1a1a;
+}
+
+header h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+header p{
+color:#ccc;
+max-width:600px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin:10px 5px;
+padding:14px 20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+section{
+padding:40px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.card{
+background:#1f1f1f;
+padding:20px;
+border-radius:14px;
+}
+
+footer{
+text-align:center;
+padding:30px 20px;
+background:#1a1a1a;
+color:#aaa;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Samoel Cardoso Tosti</h1>
+<p>Construção, reformas e acabamento em Foz do Iguaçu e região. Mais de 20 anos de experiência.</p>
+
+<a class="btn" href="https://wa.me/554598352443">WhatsApp</a>
+<a class="btn" href="tel:+554598352443">Ligar</a>
+</header>
+
+<section>
+<h2>Serviços</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Obras Completas</h3>
+<p>Da fundação até a entrega final.</p>
+</div>
+
+<div class="card">
+<h3>Reformas</h3>
+<p>Residencial, comercial e ampliações.</p>
+</div>
+
+<div class="card">
+<h3>Acabamento</h3>
+<p>Pisos, pintura, revestimentos e detalhes finais.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Confiança e Qualidade</h2>
+<p>Serviço caprichado, responsabilidade e compromisso com prazos.</p>
+</section>
+
+<footer>
+<p>Contato: (45) 9835-2443</p>
+<p>Foz do Iguaçu - Paraná</p>
+</footer>
+
+</body>
+</html>
