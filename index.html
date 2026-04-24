@@ -13,64 +13,76 @@ box-sizing:border-box;
 }
 
 body{
-font-family:Arial, sans-serif;
-background:#111;
+font-family:Arial,sans-serif;
+background:linear-gradient(180deg,#0f172a,#111827);
 color:white;
 line-height:1.6;
 }
 
 header{
-padding:60px 20px;
+padding:90px 20px;
 text-align:center;
-background:#1a1a1a;
+background:linear-gradient(135deg,#2563eb,#16a34a);
 }
 
 header h1{
-font-size:36px;
+font-size:52px;
 margin-bottom:10px;
 }
 
 header p{
-color:#ccc;
-max-width:600px;
+font-size:20px;
+max-width:700px;
 margin:auto;
+color:#eef;
 }
 
 .btn{
 display:inline-block;
 margin:10px 5px;
-padding:14px 20px;
-background:#25D366;
+padding:14px 22px;
+background:#111827;
 color:white;
 text-decoration:none;
-border-radius:10px;
+border-radius:12px;
 font-weight:bold;
 }
 
 section{
-padding:40px 20px;
-max-width:1000px;
+padding:55px 20px;
+max-width:1100px;
 margin:auto;
+}
+
+h2{
+font-size:34px;
+margin-bottom:20px;
+text-align:center;
 }
 
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:15px;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:18px;
 margin-top:20px;
 }
 
 .card{
-background:#1f1f1f;
-padding:20px;
-border-radius:14px;
+background:#1f2937;
+padding:22px;
+border-radius:16px;
+border:1px solid #374151;
+}
+
+.card h3{
+margin-bottom:8px;
 }
 
 footer{
 text-align:center;
-padding:30px 20px;
-background:#1a1a1a;
-color:#aaa;
+padding:35px 20px;
+background:#0b1220;
+color:#cbd5e1;
 }
 </style>
 </head>
@@ -86,7 +98,7 @@ color:#aaa;
 </header>
 
 <section>
-<h2>Serviços</h2>
+<h2>Serviços Especializados</h2>
 
 <div class="grid">
 
@@ -101,8 +113,33 @@ color:#aaa;
 </div>
 
 <div class="card">
-<h3>Acabamento</h3>
-<p>Pisos, pintura, revestimentos e detalhes finais.</p>
+<h3>Alvenaria</h3>
+<p>Paredes, muros, lajes e estruturas.</p>
+</div>
+
+<div class="card">
+<h3>Pintura</h3>
+<p>Interna e externa com ótimo acabamento.</p>
+</div>
+
+<div class="card">
+<h3>Hidráulica</h3>
+<p>Instalações, reparos e manutenção.</p>
+</div>
+
+<div class="card">
+<h3>Elétrica</h3>
+<p>Tomadas, iluminação e instalações.</p>
+</div>
+
+<div class="card">
+<h3>Encanamentos</h3>
+<p>Tubulações e ajustes gerais.</p>
+</div>
+
+<div class="card">
+<h3>Acabamentos</h3>
+<p>Pisos, revestimentos e detalhes finais.</p>
 </div>
 
 </div>
@@ -110,7 +147,7 @@ color:#aaa;
 
 <section>
 <h2>Confiança e Qualidade</h2>
-<p>Serviço caprichado, responsabilidade e compromisso com prazos.</p>
+<p style="text-align:center;">Atendimento responsável, compromisso com prazos e serviço caprichado.</p>
 </section>
 
 <footer>
